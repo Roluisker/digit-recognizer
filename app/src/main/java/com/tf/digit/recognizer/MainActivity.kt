@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             prediction.text = "Prediction: " + res.number
             timecost.text = "TimeCost: " + res.timeCost
         }
-        
+
         btn_clear.setOnClickListener {
             fpv_paint.clear()
             prediction.text = ""
